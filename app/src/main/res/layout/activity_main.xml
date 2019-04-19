@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for a list of News -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- ListView use to shows items in vertically scrolling -->
+    <ListView
+        android:id="@+id/list"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#00FFFFFF"
+        android:dividerHeight="0dp"
+        android:background="#ffffff"
+        android:layout_margin="4dp"/>
+
+    <!-- Empty view is only visible when the list has no items.
+         so this TextView will only displayed whenever there's no data on the list.  -->
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <!-- progressBar that's to display while user is waiting until work is completed
+         if internet connection may be so fast that the loading indicator is not visible
+          on screen for enough time for the human eye to catch it.  -->
+    <!-- attribute style="@style/Widget.AppCompat.ProgressBar" to appear circular loading indicator. -->
+    <ProgressBar
+        android:id="@+id/loading_indicator"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+
+    <!-- to change size of app name in app bar(action bar)-->
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:id="@+id/toolbar"
+        app:titleTextAppearance="@style/Toolbar.TitleText" />
+
+
+</LinearLayout>
