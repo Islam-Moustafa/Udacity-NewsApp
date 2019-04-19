@@ -1,4 +1,4 @@
-The Guardian
+The Guardian News
 -----------------------------------
 This app part from [Android Basics Udacity Nanodegree: Networking.](https://www.udacity.com/course/android-basics-networking--ud843) 
  
