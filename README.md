@@ -12,4 +12,5 @@ Learned
  
 Screenshots
 ------------------------------------------
-
+![news1](https://user-images.githubusercontent.com/49339964/56417603-4cac3680-6249-11e9-9044-47c87484f195.PNG)
+![news2](https://user-images.githubusercontent.com/49339964/56417609-503fbd80-6249-11e9-91ff-78c4c392160a.PNG)
