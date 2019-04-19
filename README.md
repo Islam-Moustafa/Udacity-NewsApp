@@ -9,6 +9,7 @@ Learned
 - Use HTTP request to connecting by internet in background thread.
 - Parsing JSON response from API in AsyncTaskLoader and display information to user.
 - Using ListView, ArrayList and ArrayAdapter to RecyclerView.  
+- Using implicit intent go to link of news when click into each element of listView.
  
 Screenshots
 ------------------------------------------
